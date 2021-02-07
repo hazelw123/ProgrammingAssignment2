@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Tests if the inverse has been calculated - skips if it's already been done, 
-##if not it gets the vale of x from the list above and calculates the inverse, stores it under j
+##if not it gets the vale of x from the list above and calculates the inverse, stores it under a
 
 cacheSolve <- function(x, ...) {
       
